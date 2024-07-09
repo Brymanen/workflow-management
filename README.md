@@ -1,0 +1,2 @@
+# Outline
+Simulate msgs by reading a CSV file and publishing a msg to a RabbitMQ exchange for each row in the CSV file. Next, read the msgs from the MQ and look for keywords from a keyword file. Each keywords is associated with a specific recipient. Publish the msgs according to the keywords to the respective recipients.
